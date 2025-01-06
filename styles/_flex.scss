@@ -6,11 +6,17 @@
     &_L{
         align-items: start;
     }
+    &_AS_E { 
+        align-self: flex-end;
+    }
     &_Ai_E{
         align-items: end;
     }
     &_Ai_SB{
         align-items: space-between;
+    }
+    &_Ai_SA{
+        align-items: space-around;
     }
     &_j_SB{
         justify-content: space-between;
