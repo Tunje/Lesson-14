@@ -1,0 +1,26 @@
+
+@import 'flex';
+@import 'font';
+@import 'PageOne';
+
+
+body{
+    max-width: 1800px;
+    margin: 0 auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Shadows Into Light", cursive;
+}
+
+.location{
+    border: #c37272;
+    border-width: 3px;
+    border-style: solid;
+}
+.MaxWH{
+    width: 100%;
+    height: 100%;
+}
