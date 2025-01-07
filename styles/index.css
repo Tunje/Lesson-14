@@ -83,84 +83,22 @@
 }
 
 .fonts {
-  font-family: "Source Code Pro", monospace;
   font-style: normal;
 }
-.fonts_alt {
-  font-family: "Poppins", sans-serif;
+.fonts_large {
+  font-size: 64px;
 }
-.fonts_tiny {
-  font-size: 16px;
-  line-height: 20px;
-}
-.fonts_mini {
-  font-size: 16px;
-  line-height: 26px;
+.fonts_medium {
+  font-size: 26px;
 }
 .fonts_small {
   font-size: 18px;
-  line-height: 23px;
 }
-.fonts_avrage {
-  font-size: 22px;
-  line-height: 28px;
+.fonts_alt {
+  letter-spacing: 8px;
 }
-.fonts_more {
-  font-size: 40px;
-  line-height: 55px;
-}
-.fonts_big {
-  font-size: 40px;
-  line-height: 60px;
-}
-.fonts_swift {
-  font-size: 28px;
-  line-height: 38px;
-}
-.fonts_soup {
-  font-size: 22px;
-  line-height: 33px;
-}
-.fonts_giga {
-  font-size: 90px;
-  line-height: 102px;
-}
-.fonts_boldE {
-  font-weight: 500;
-}
-.fonts_bold {
-  font-weight: bold;
-}
-.fonts_Norm {
-  font-weight: normal;
-}
-.fonts_blue {
-  color: #0011ff;
-}
-.fonts_black {
-  color: #000000;
-}
-.fonts_gray {
-  color: #7a7a7a;
-}
-.fonts_it {
-  font-style: italic;
-}
-.fonts_shade {
-  mix-blend-mode: normal;
-  opacity: 0.8;
-}
-.fonts_trans {
-  mix-blend-mode: normal;
-  opacity: 0.6;
-}
-.fonts_shift {
-  mix-blend-mode: normal;
-  opacity: 0.5;
-}
-.fonts_inv {
-  mix-blend-mode: normal;
-  opacity: 0.1;
+.fonts_other {
+  font-family: "Aleo", serif;
 }
 
 .deco {
@@ -488,6 +426,7 @@
 body {
   max-width: 1800px;
   margin: 0 auto;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 p {
@@ -499,13 +438,6 @@ p {
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: "Shadows Into Light", cursive;
-}
-
-.location {
-  border: #c37272;
-  border-width: 3px;
-  border-style: solid;
 }
 
 .large-svg {
@@ -516,4 +448,32 @@ p {
 .alt-svg {
   width: 800px;
   height: 150px;
+}
+
+.small-svg {
+  width: 50px;
+  height: 50px;
+  fill: white;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  height: 63px;
+  border: none;
+}
+
+.search-button {
+  padding: 10px 15px;
+  background-color: #5474FD;
+  color: white;
+  border: none;
+  cursor: pointer;
+  height: 63px;
+  width: 153px;
+  border: 2px solid #ccc;
+}
+
+.search-button:hover {
+  background-color: #465dc1;
 }

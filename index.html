@@ -2,7 +2,8 @@
 <html>
 <head>
     <meta name="viewpott" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -14,14 +15,20 @@
             <div class="OneTop"></div>
             <div class="OneSearchText flex flex_col flex_j_SB">
                 <div class="OneSearchTitle location">
-                    <p>Bhromaon</p>
+                    <p class="fonts_large">BHROMAON</p>
                 </div>
                 <div class="OneSearchSubTitle location">
-                    <p>Safe Travel Anywhere</p>
+                    <p class="fonts_medium fonts_alt">Safe Travel Anywhere</p>
                 </div>
             </div>
             <div class="OneMiddle"></div>
-            <div class="OneSearchBox location"></div>
+            <div class="OneSearchBox flex location">
+                <input type="text" placeholder="Search Your Travel Destination" class="search-input font_other" />
+                <button class="search-button flex flex_j_SA">
+                    <p>Search</p>
+                    <img src="./images/svg/Combined shape 1406.svg" alt="magnifying glass"/>
+                </button>
+            </div>
             <div class="OneLowMiddle"></div>
             <div class="OneScroll location">
                 <p>Scroll Down</p>
