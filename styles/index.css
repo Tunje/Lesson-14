@@ -299,6 +299,41 @@
   height: 700px;
 }
 
+.Fourtop {
+  min-height: 227px;
+}
+
+.Fourcontent {
+  min-height: 374px;
+  min-width: 1086px;
+}
+
+.Fourbox {
+  min-height: 374px;
+  min-width: 543px;
+  padding: 32px;
+}
+
+.Fourtitle {
+  min-height: 26px;
+  min-width: 80px;
+}
+
+.Fourtitle2 {
+  min-height: 26px;
+  min-width: 241px;
+}
+
+.Fourtext {
+  min-height: 78px;
+  min-width: 508px;
+}
+
+.Fourbutton {
+  min-height: 63px;
+  min-width: 228px;
+}
+
 body {
   max-width: 1800px;
   margin: 0 auto;
