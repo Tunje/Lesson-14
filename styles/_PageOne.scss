@@ -4,6 +4,9 @@
 .Onepage{
     width: 100%;
     height: 821px;
+    background-image: url('../images/image\ 1.png');
+    background-size: cover;
+    background-position: center;
 }
 .OneTop{
     min-height: 264px;
@@ -40,6 +43,7 @@
 .OneBottomBar{
     min-height: 83px;
     min-width: 100%;
+    background-color: #5474FD;
 }
 .OneBar1{
     min-height: 20px;

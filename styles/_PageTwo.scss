@@ -1,6 +1,9 @@
 .Twopage{
     width: 100%;
     height: 685px;
+    background-image: url('../images/page\ 2.png');
+    background-size: cover;
+    background-position: center;
 }
 .TwoPictrueBox{
     min-height: 450px;
@@ -9,6 +12,16 @@
 .TwoTextBox{
     min-height: 450px;
     min-width: 560px;
+}
+.Twoim1{
+    background-image: url('../images/mini\ im\ 1.png');
+    background-size: cover;
+    background-position: center;
+}
+.Twoim2{
+    background-image: url('../images/mini\ im\ 2.png');
+    background-size: cover;
+    background-position: center;
 }
 .TwoPic{
     min-height: 220px;

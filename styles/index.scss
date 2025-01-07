@@ -13,6 +13,9 @@ body{
     max-width: 1800px;
     margin: 0 auto;
 }
+p{    
+    color: white;
+}
 *{
     margin: 0;
     padding: 0;
@@ -24,4 +27,12 @@ body{
     border: #c37272;
     border-width: 3px;
     border-style: solid;
+}
+.large-svg {
+    width: 100px;
+    height: 100px;
+}
+.alt-svg {
+    width: 800px;
+    height: 150px;
 }

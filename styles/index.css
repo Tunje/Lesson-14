@@ -170,6 +170,9 @@
 .Onepage {
   width: 100%;
   height: 821px;
+  background-image: url("../images/image 1.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .OneTop {
@@ -216,6 +219,7 @@
 .OneBottomBar {
   min-height: 83px;
   min-width: 100%;
+  background-color: #5474FD;
 }
 
 .OneBar1 {
@@ -236,6 +240,9 @@
 .Twopage {
   width: 100%;
   height: 685px;
+  background-image: url("../images/page 2.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .TwoPictrueBox {
@@ -246,6 +253,18 @@
 .TwoTextBox {
   min-height: 450px;
   min-width: 560px;
+}
+
+.Twoim1 {
+  background-image: url("../images/mini im 1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.Twoim2 {
+  background-image: url("../images/mini im 2.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .TwoPic {
@@ -280,6 +299,7 @@
 .Threepage {
   min-width: 100%;
   height: 340px;
+  background-color: #333333;
 }
 
 .Threepage2 {
@@ -307,6 +327,7 @@
 .ThreeIcons {
   min-height: 118px;
   min-width: 253px;
+  background-color: #333333;
 }
 
 .Threetext {
@@ -317,6 +338,17 @@
 .Fourpage {
   width: 100%;
   height: 700px;
+  background-image: url("../images/page 3.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.Fourpage2 {
+  width: 100%;
+  height: 700px;
+  background-image: url("../images/page 4.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .Fourtop {
@@ -329,6 +361,13 @@
 }
 
 .Fourbox {
+  min-height: 374px;
+  min-width: 543px;
+  padding: 32px;
+  background-color: rgba(35, 35, 35, 0.9);
+}
+
+.Fourbox1 {
   min-height: 374px;
   min-width: 543px;
   padding: 32px;
@@ -346,7 +385,7 @@
 
 .Fourtext {
   min-height: 78px;
-  min-width: 508px;
+  max-width: 508px;
 }
 
 .Fourbutton {
@@ -357,6 +396,9 @@
 .Sixpage {
   width: 100%;
   height: 731px;
+  background-image: url("../images/page 5.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .Sixtop {
@@ -366,6 +408,12 @@
 .Sixtitle {
   min-height: 26px;
   min-width: 390px;
+}
+
+.Sixim {
+  background-image: url("../images/mini im 3.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .Sixmid {
@@ -386,6 +434,7 @@
   min-height: 100%;
   min-width: 662px;
   padding: 32px;
+  background-color: rgba(35, 35, 35, 0.8);
 }
 
 .Sixtitle2 {
@@ -397,13 +446,14 @@
 
 .Sixbox {
   min-height: 165px;
-  min-width: 495px;
+  max-width: 495px;
   margin-left: 30px;
 }
 
 .footpage {
   width: 100%;
   min-height: 271px;
+  background-color: #232323;
 }
 
 .footpad {
@@ -427,11 +477,21 @@
 .footicon {
   min-height: 25px;
   min-width: 25px;
+  color: white;
+}
+
+.footicon:hover i {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 body {
   max-width: 1800px;
   margin: 0 auto;
+}
+
+p {
+  color: white;
 }
 
 * {
@@ -446,4 +506,14 @@ body {
   border: #c37272;
   border-width: 3px;
   border-style: solid;
+}
+
+.large-svg {
+  width: 100px;
+  height: 100px;
+}
+
+.alt-svg {
+  width: 800px;
+  height: 150px;
 }

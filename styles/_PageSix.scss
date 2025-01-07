@@ -1,13 +1,22 @@
 .Sixpage{
     width: 100%;
     height: 731px;
-}
+    background-image: url('../images/page\ 5.png');
+    background-size: cover;
+    background-position: center;
+    }
 .Sixtop{
     min-height: 128px;
 }
 .Sixtitle{
     min-height: 26px;
     min-width: 390px;
+}
+
+.Sixim{
+    background-image: url('../images/mini\ im\ 3.png');
+    background-size: cover;
+    background-position: center;
 }
 .Sixmid{
     min-height: 91px;
@@ -24,6 +33,8 @@
     min-height: 100%;
     min-width: 662px;
     padding: 32px;
+    
+    background-color: rgba(35, 35, 35, 0.8);
 }
 .Sixtitle2{
     min-height: 26px;
@@ -33,6 +44,6 @@
 }
 .Sixbox{
     min-height: 165px;
-    min-width: 495px;
+    max-width: 495px;
     margin-left: 30px;
 }
